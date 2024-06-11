@@ -1,0 +1,129 @@
+header{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 152px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+li.nav__link a{font-family:"Poppins", sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 15px;
+line-height: 160%;
+color: black;
+text-decoration: none;
+text-align: initial;
+
+}
+ul{
+    display: grid;
+grid-template-columns: repeat(6, 1fr);
+width: 584.81px;
+height: 50px;
+text-align: center;
+align-items: center;
+
+}
+
+#button{font-family:"Poppins", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    background-color: black;
+    border-radius: 14px;
+    width: 155px;
+    height: 46px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 155px;
+    height: 46px;
+
+
+}
+svg{padding-top: 13px;
+    width: 220px;
+    height: 19px;
+
+}
+.conteiner{
+    background-image: url("../image/Frame.jpg");
+    background-size:cover;
+    height: 720px;
+
+
+}
+.conteiner_inside{display: grid;
+    align-content: center;
+    padding-left: 60px;
+    padding-top: 77px;
+    gap: 35px;
+    width: 600px;
+    height: 566px;
+}
+.wishbone{
+    font-family:"Poppins", sans-serif;
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+letter-spacing: 0.14em;
+text-transform: uppercase;
+color: #645c55;
+}
+.tittle{
+    font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 64px;
+line-height: 110%;
+color: #1b1a1a;
+}
+.description{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #403e3b;
+    padding-right: 55px;
+}
+.more{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #1b1a1a;
+    width: 133px;
+height: 46px;
+padding-left: 25px;
+}
+.conteiner_firm{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 100px;
+    margin-left: 336px;
+    width: 768px;
+    height: 582px;
+
+
+}
+.conteiner_firm_inside{
+    display: grid;
+    padding: 0;
+    padding-right: 35px;
+}
+.firm_major{
+    font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 32px;
+line-height: 119%;
+color: #403e3b;
+}
+.firm{
+    font-family: "Poppins", sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #403e3b;
+}
